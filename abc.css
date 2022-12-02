@@ -1,0 +1,116 @@
+body{
+    font-family: 'Circular-Book',Arial,sans-serif;
+    margin-bottom: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.investors{
+    text-decoration: none;
+    line-height: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 10x;
+    margin-right: 27px;
+    
+}
+.investors:hover{
+    color: #424242;
+}
+.alphabet{
+    background-size: 100px 24px;
+height: 24px;
+left: 36px;
+position: absolute;
+top: 27px;
+width: 100px;
+z-index: 999;
+}
+.main{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.mainfirst,.mainthird{
+    width: 1fr;
+    /* display: flex; */
+    margin: 0;
+    
+    
+}
+.mainsecond{
+    /* background-color: #757575; */
+    width: 42%;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    flex-direction: column;
+
+}
+.mainfourth{
+    width: 27%;
+    float: right;
+    padding-right: 0px;
+    margin-right: 0;
+    
+    
+}
+
+.firstimage{
+    padding-top: 150px;
+    width: 130px;
+    display: block;
+    
+}
+.isgoogle{
+    width: 250px;
+    padding-left: 25px;
+}
+.letters{
+    width: 455px;
+    padding-left: 10px;
+}
+.text1{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-family: 'Circular book', Arial, sans-serif;
+    line-height: 1.278;
+    padding-left: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.text2{
+    color: rgb(117, 117, 117);
+    padding-left: 65px;
+    
+    font-size: 18px;
+    font-family: 'Circular book', Arial, sans-serif;
+    line-height: 1.278;
+    /* text-indent: 10px; */
+
+}
+.signimage{
+    width: 450px;
+     
+}
+.foot{
+    height: 75px;
+    background-color:#e9eaea;;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.fimage{
+ width: 75px;
+ padding-top: 30px;
+ padding-right: 20px;
+ 
+}
